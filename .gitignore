@@ -1,0 +1,5 @@
+/target/
+/vendor/reed-solomon/target/
+/experiments/
+/work/
+.DS_Store

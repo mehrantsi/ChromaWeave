@@ -1,0 +1,19 @@
+[package]
+name = "cw-codec-ffi"
+version = "0.1.0"
+license = "Apache-2.0"
+edition = "2024"
+publish = false
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[dependencies]
+chromaweave = { path = "../..", default-features = false }
+image = { version = "0.25", default-features = false, features = ["png"] }
+serde_json = "1.0"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+

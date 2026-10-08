@@ -1,0 +1,5 @@
+/build/
+/Frameworks/
+/RustBridge/target/
+xcuserdata/
+*.xcuserstate

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "kind": "real-camera-photo-derived",
+  "license": "Apache-2.0",
+  "rights": "User-provided photograph of project-generated random binary CW payload; included under the project license with owner authorization.",
+  "source_sha256": "6222227d826931e22170cee74526d7fa817a81d85aedb4e1a787bb8ccbe93367",
+  "source_dimensions": [
+    3024,
+    4032
+  ],
+  "crop_box_xyxy": [
+    95,
+    640,
+    2890,
+    3460
+  ],
+  "resize_dimensions": [
+    1398,
+    1410
+  ],
+  "resample": "Pillow LANCZOS",
+  "output_format": "RGB PNG; no metadata",
+  "output_sha256": "894cc99ca7dcef0b55c4842207cf500762060f2e5e31768266dac2b5722a44e6",
+  "payload_bytes": 20480,
+  "payload_sha256": "74afc5399302831c2cf2e6485f483d5f799d995bff5e3f9044a6505dc020450d",
+  "privacy_review": "Code and quiet margin only. Screen text, cursor, surrounding UI, and photograph metadata excluded. Original retained privately; no third-party GIF included."
+}
